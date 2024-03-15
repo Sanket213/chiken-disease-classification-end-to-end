@@ -5,7 +5,7 @@ notebook
 numpy
 matplotlib
 seaborn
-python-box==6.0.2
+python-box==6.0.2  # to handle the exceptions
 pyYAML
 tqdm
 ensure==1.0.2
@@ -14,4 +14,4 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
--e .
+-e .   #for making src as package using setup.py file

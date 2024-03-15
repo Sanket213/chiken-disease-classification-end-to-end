@@ -26,6 +26,9 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     Returns:
         ConfigBox: ConfigBox type
     """
+    #	why?? Config box 
+	#   Dict[key] instead of this dict.key will work
+
     try:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)

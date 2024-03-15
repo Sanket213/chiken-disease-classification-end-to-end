@@ -18,7 +18,7 @@ class DataIngestionTrainingPipeline:
 
 
 
-
+## to integrate with dvc call everytime that why bellow code
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
